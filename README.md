@@ -2,12 +2,17 @@
 
 
 ## What is Gh0stshell?
-Gh0stshell is a Shell Multiplexer. You can run a multihandler (listener) and connect many clients.
+Gh0stshell is a Shell Multiplexer. Gh0stshell can handle multiple incoming reverse shells. It is easy to handle, simple to manage multiply sessions, even SSL-encryption is supported. 
+
+It's like Netcat on steroids. 
+
+Sometimes you don't want to install the whole Metasploit-Framework only to spawn some shells.
 
 ## Features
 + Manage multiply shells
 + Reverse Shells
 + HTTPS Encryption 
++ Spawn a minimal Webserver to share payloads 
 
 ## Requirements
 - Linux or BSD
@@ -18,7 +23,7 @@ Gh0stshell is a Shell Multiplexer. You can run a multihandler (listener) and con
 Tested on Debian
 
 ## FAQ
-Coming soon...
+Coming soon... but you don't need it. really.
 
 ## Support
 Reach out to me at one of the following places!
