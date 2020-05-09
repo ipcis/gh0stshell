@@ -18,7 +18,7 @@ Sometimes you don't want to install the whole Metasploit-Framework only to spawn
 - Linux or BSD
 - Python 2.7
 - Socat 
-- TmuxT
+- Tmux
 
 Tested on Debian
 
