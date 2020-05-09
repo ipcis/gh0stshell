@@ -34,4 +34,4 @@ BTC: 137KpjUZ64HC8VgEiG7g3YJykFWoGsAW3a
 [![License](http://img.shields.io/:license-gpl-blue.svg?style=flat-square)](http://badges.gpl-license.org)
 
 - **[GPL license](http://opensource.org/licenses/gpl-license.php)**
-- Copyright 2019 © <a href="https://wswall.com" target="_blank">wswall.com</a>.
+- Copyright 2020 © <a href="https://wslab.de" target="_blank">wslab.de</a>.
