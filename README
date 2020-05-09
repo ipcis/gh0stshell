@@ -1,0 +1,19 @@
+Gh0stShell
+
+
+Requirements:
+tmux
+socat
+python 2.7.9 
+
+
+Shortcuts:
+Detach terminal = strg+b d
+
+
+TMUX Commands:
+send command to tmux session = tmux send-keys -t 0 hostname C-m
+
+
+tmux Cheatsheet:
+https://tmuxcheatsheet.com/
