@@ -1,7 +1,3 @@
-# gh0stshell
-Shell Multiplexer
-
-
 <img src="https://wslab.de/wslab/logo_gs_wh.png" height="50%"> 
 
 
