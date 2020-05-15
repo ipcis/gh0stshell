@@ -31,9 +31,6 @@ Reach out to me at one of the following places!
 - Website at <a href="https://wslab.de" target="_blank">wslab</a>
 - Twitter at <a href="https://twitter.com/marcelbilal" target="_blank">@marcelbilal</a>
 
-## Donations 
-BTC: 137KpjUZ64HC8VgEiG7g3YJykFWoGsAW3a
-
 ## License
 
 [![License](http://img.shields.io/:license-gpl-blue.svg?style=flat-square)](http://badges.gpl-license.org)
