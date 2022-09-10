@@ -26,7 +26,7 @@ class MyPrompt(Cmd):
     def do_create_ssl_cert(self, inp):
         print("Create SSL Certificate...")
         os.system("openssl req -newkey rsa:2048 -nodes -keyout server.key -x509 -days 30 -out server.crt")
-	os.system("cat server.key server.crt > server.pem")
+        os.system("cat server.key server.crt > server.pem")
 
 #tmux send-keys -t 0 hostname C-m
 #send_command 0 "ping 8.8.8.8"
