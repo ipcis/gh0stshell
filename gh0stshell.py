@@ -69,7 +69,7 @@ class MyPrompt(Cmd):
         try:
             inp = int(inp)
             print("Run listener...")
-            os.system('socat TCP-LISTEN:' + inp +',reuseaddr,fork EXEC:./socatscript.sh &')
+            os.system('socat TCP-LISTEN:' + str(inp) +',reuseaddr,fork EXEC:./socatscript.sh &')
         except:
             print("[!] Please define a valid port")
 
