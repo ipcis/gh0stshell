@@ -16,7 +16,7 @@ def banner():
  
 class MyPrompt(Cmd):
     prompt = 'Gh0stShell> '
-    intro = "\nWelcome to Gh0stShell! (www.ghostshell.de)\nType ? 4 Help\n"
+    intro = "\nWelcome to Gh0stShell! (www.ghostshell.de)\nType ? for Help\n"
 
     def do_sessions(self, inp):
         print("List sessions...")
