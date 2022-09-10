@@ -6,11 +6,13 @@ from cmd import Cmd
 import os
 
 def banner():
+    print("")
     print("   .aMMMMP     dMP dMP    .aMMMb    .dMMMb  dMMMMMMP    .dMMMb     dMP dMP     dMMMMMP     dMP     dMP ")
     print("  dMP         dMP dMP    dMP dMP   dMP  VP    dMP      dMP  VP    dMP dMP     dMP         dMP     dMP ") 
     print(" dMP MMP     dMMMMMP    dMP dMP    VMMMb     dMP       VMMMb     dMMMMMP     dMMMP       dMP     dMP  ") 
     print("dMP.dMP     dMP dMP    dMP.aMP   dP .dMP    dMP      dP .dMP    dMP dMP     dMP         dMP     dMP   ") 
     print("VMMMP      dMP dMP     VMMMP     VMMMP     dMP       VMMMP     dMP dMP     dMMMMMP     dMMMMMP dMMMMMP")
+    print("")
  
 class MyPrompt(Cmd):
     prompt = 'Gh0stShell> '
