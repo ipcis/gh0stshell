@@ -66,7 +66,7 @@ class MyPrompt(Cmd):
 
 #socat OPENSSL-LISTEN:8443,cert=server.pem,reuseaddr,verify=0,fork EXEC:./socatscript.sh
     def do_start_multihandler(self, inp):
-        if type(int) == int:
+        if type(inp) == int:
             print("Run listener...")
             os.system('socat TCP-LISTEN:' + inp +',reuseaddr,fork EXEC:./socatscript.sh &')
         else:
