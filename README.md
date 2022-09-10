@@ -21,9 +21,6 @@ It's like Netcat on steroids.
 
 Tested on Debian
 
-## FAQ
-Coming soon... but you don't need it. really.
-
 ## Support
 Reach out to me at one of the following places!
 
