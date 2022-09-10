@@ -8,7 +8,7 @@ import os
  
 class MyPrompt(Cmd):
     prompt = 'Gh0stShell> '
-    intro = "\nWelcome to Gh0stShell! (www.wslab.de)\nType ? 4 Help\n"
+    intro = "\nWelcome to Gh0stShell! (www.ghostshell.de)\nType ? 4 Help\n"
 
     def do_sessions(self, inp):
         print("List sessions...")
