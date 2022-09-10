@@ -6,7 +6,6 @@ Gh0stshell is a Shell Multiplexer. Gh0stshell can handle multiple incoming rever
 
 It's like Netcat on steroids. 
 
-Sometimes you don't want to install the whole Metasploit-Framework only to spawn some shells.
 
 ## Features
 + Manage multiply shells
