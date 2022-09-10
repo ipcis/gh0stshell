@@ -19,7 +19,7 @@ It's like Netcat on steroids.
 - Socat 
 - Tmux
 
-Tested on Debian
+Tested on Debian and on Kali
 
 ## Support
 Reach out to me at one of the following places!
