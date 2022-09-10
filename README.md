@@ -14,8 +14,8 @@ It's like Netcat on steroids.
 + Spawn a minimal Webserver to share payloads 
 
 ## Requirements
-- Linux or BSD
-- Python 2.7
+- Linux
+- Python 3
 - Socat 
 - Tmux
 
@@ -32,4 +32,4 @@ Reach out to me at one of the following places!
 [![License](http://img.shields.io/:license-gpl-blue.svg?style=flat-square)](http://badges.gpl-license.org)
 
 - **[GPL license](http://opensource.org/licenses/gpl-license.php)**
-- Copyright 2020 © <a href="https://wslab.de" target="_blank">wslab.de</a>.
+- Copyright 2022 © <a href="https://ghostshell.de" target="_blank">ghostshell.de</a>.
