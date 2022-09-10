@@ -109,7 +109,7 @@ class MyPrompt(Cmd):
         print("Example: start_webshare <port>")
 
     def help_create_ssl_cert(self):
-        print("Create an SSL certificate for SSL the multihandler")
+        print("Create an SSL certificate for the SSL multihandler")
  
     def help_sessions(self):
         print("List running sessions / connected clients; Use: strg+b d to detach session")
