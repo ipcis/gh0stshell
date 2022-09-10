@@ -20,6 +20,7 @@ class MyPrompt(Cmd):
 
     def do_sessions(self, inp):
         print("List sessions...")
+        print("")
         print("Use: strg+b d to detach session; if failed no clients are connected or the server is not started or both")
         os.system('tmux ls')
 
