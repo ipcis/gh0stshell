@@ -62,7 +62,7 @@ class MyPrompt(Cmd):
 #pushd ./share/; python -m SimpleHTTPServer 8000; popd
     def do_start_webshare(self, inp):
         print("Run Webshare...")
-        os.system("cd ./share/; python -m SimpleHTTPServer " + inp)
+        os.system("cd ./share/; python -m http.server " + inp)
 
 #socat OPENSSL-LISTEN:8443,cert=server.pem,reuseaddr,verify=0,fork EXEC:./socatscript.sh
     def do_start_multihandler(self, inp):
