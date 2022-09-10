@@ -1,4 +1,4 @@
-<img src="https://wslab.de/wslab/logo_gs_wh.png" height="50%"> 
+<img src="https://camo.githubusercontent.com/46d91cec7c588d74507020c0aa92fcef3cb8639b87f9fd8ac09c73865b64876e/68747470733a2f2f67686f73747368656c6c2e64652f696d616765732f6c6f676f5f77685f6f6e5f626c2e706e67" height="50%"> 
 
 
 ## What is Gh0stshell?
