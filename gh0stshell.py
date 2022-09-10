@@ -144,8 +144,8 @@ class MyPrompt(Cmd):
  
         print("Unknown command: {}".format(inp))
  
-    do_EOF = do_exit
-    help_EOF = help_exit
+    do_exit = do_exit
+    help_exit = help_exit
  
 if __name__ == '__main__':
     banner()
