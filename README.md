@@ -27,7 +27,7 @@ Coming soon... but you don't need it. really.
 ## Support
 Reach out to me at one of the following places!
 
-- Website at <a href="https://wslab.de" target="_blank">wslab</a>
+- Website at <a href="https://ghostshell.de" target="_blank">wslab</a>
 - Twitter at <a href="https://twitter.com/marcelbilal" target="_blank">@marcelbilal</a>
 
 ## License
